@@ -1,0 +1,102 @@
+html,
+body{
+    background:url('../img/NightBridge.jpg') center no-repeat;
+    height:100%;
+    background-size: cover;
+}
+
+@media(max-width:768px){
+    .logo img{
+        width:50%;
+    }
+    
+    .counter .countdown{
+        font-size:1.4em !important;
+    }
+
+    .icons .fa{
+        margin:10px 0 !important;
+        font-size: 2em;
+    }
+}
+
+@media(min-width:321) and (max-width:568px){
+    .logo img {
+        width: 20%;
+    }
+}
+
+
+.logo{
+    padding: 50px;
+    align-content: center;
+    text-align:center;
+    
+}
+
+.intro p {
+    color: #fff;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    padding-top:70px;
+    font-size:1.8em;
+}
+
+.counter .countdown {
+    text-align: center;
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5em;
+    margin-top: -25px;
+}
+
+.icons{
+    text-align:center;
+   
+}
+
+    .icons .fa {
+        color: #fff;
+        margin: 5px 15px;
+        position:relative;
+        bottom:0;
+        transition: all 0.2s ease-in-out;
+    }
+
+.twitter:hover {
+    color: #1da1f2;
+    bottom: 5px;
+}
+
+.facebook:hover {
+    color: #3b5998;
+    bottom: 5px;
+}
+
+.google:hover {
+    color: #dd4b39;
+    bottom: 5px;
+}
+
+.instagram:hover {
+    color: #405de6;
+    bottom: 5px;
+}
+.signup{
+    text-align:center;
+}
+
+.signup .form-inline {
+    display: block;
+}
+
+.signup .btn{
+    background-color: rgba(161, 186, 226,0.6);
+    color:white;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+    .signup .btn:hover{
+        background-color: rgba(37,165,82,1);
+        color:#000;
+    }
